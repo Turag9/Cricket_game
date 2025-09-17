@@ -10,7 +10,8 @@ click stump
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/53bb5f96-64aa-45df-a1f1-d6f1a49e00e9" />
 
 after page reload 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/366c2852-f983-4095-aef0-486cb875c52f" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/71a68188-b092-4e49-88c2-eede3932fe6c" />
+
 after score reset
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1d91fde3-e2bd-430e-a8a5-827665c4b6fc" />
 I use here localstorage
