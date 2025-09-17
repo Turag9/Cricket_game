@@ -1,11 +1,14 @@
 start Ui
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a4520eea-0fc4-474f-848d-b58f3e303a4a" />
 click Bat
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/64005fc5-7f60-416a-90bc-27c69af90f44" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/331f4d50-635e-450b-afcd-d10b2a6a7a85" />
+
 click ball
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c72a28d5-6f94-41dd-812d-48217f17d71f" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5a78de19-668c-445f-ab5b-f4162012f6d4" />
+
 click stump
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/944c3195-7008-4470-9e37-636c954c52ae" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/53bb5f96-64aa-45df-a1f1-d6f1a49e00e9" />
+
 after page reload 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/366c2852-f983-4095-aef0-486cb875c52f" />
 after score reset
