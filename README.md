@@ -1,13 +1,16 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/56fbe69f-d658-4e58-b488-2f7323cd4853" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5a641c5d-92d2-4ea6-ac96-3e2b14bbdbd5" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0138701d-cc20-49c9-b42b-058cc115321c" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/eefbe437-3502-46e9-87e9-cef5087e4266" />
-After Full page reload 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1af503a1-e417-4c9a-93be-4cd4dd2cc694" />
-After click on resst button 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/609946cd-2ddd-42ca-b61b-a65f413d31e9" />
-I use here localstorage for save data .
-
+start Ui
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a4520eea-0fc4-474f-848d-b58f3e303a4a" />
+click Bat
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/64005fc5-7f60-416a-90bc-27c69af90f44" />
+click ball
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c72a28d5-6f94-41dd-812d-48217f17d71f" />
+click stump
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/944c3195-7008-4470-9e37-636c954c52ae" />
+after page reload 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/366c2852-f983-4095-aef0-486cb875c52f" />
+after score reset
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1d91fde3-e2bd-430e-a8a5-827665c4b6fc" />
+I use here localstorage
 
 
 
