@@ -13,7 +13,8 @@ after page reload
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/71a68188-b092-4e49-88c2-eede3932fe6c" />
 
 after score reset
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1d91fde3-e2bd-430e-a8a5-827665c4b6fc" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cab6932b-a3fe-4296-b251-87ccf2a44810" />
+
 I use here localstorage
 
 
