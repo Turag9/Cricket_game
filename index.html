@@ -3,15 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bat Ball Stump Game</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Bar Ball Stump Game</h1>
-  <button onclick="playGame('Bat')">Bat</button>
-  <button onclick="playGame('Ball')">Ball</button>
-  <button onclick="playGame('Stump')">Stump</button>
-  <script src="script.js"></script>
-
+    <div class="game-container">
+        <h1>Bat, Ball, Stump</h1>
+        <div class="buttons">
+            <button onclick="playGame('Bat')">Bat</button>
+            <button onclick="playGame('Ball')">Ball</button>
+            <button onclick="playGame('Stump')">Stump</button>
+        </div>
+        <h2 id="result-text"></h2>
+        <p id="score-text"></p>
+        <button class="reset-button" onclick="resetScore()">Reset Score</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

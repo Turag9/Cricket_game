@@ -1,27 +1,69 @@
- function playGame(userChoice) {
-      let randomNum = Math.random() * 3;
-      let computerChoice;
+let score = JSON.parse(localStorage.getItem('score')) || {
+    win: 0,
+    lose: 0,
+    draw: 0
+};
 
-      if (randomNum < 1) {
+// Immediately update the score display when the page loads
+updatescore();
+
+function updatescore(result = '') {
+    const scoreText = document.getElementById('score-text');
+    if (scoreText) {
+        scoreText.innerHTML = `**${result}**<br>Wins: ${score.win}, Losses: ${score.lose}, Draws: ${score.draw}`;
+    }
+}
+
+function resultscore(userChoice, computerChoice) {
+    const resultText = document.getElementById('result-text');
+    if (resultText) {
+        resultText.innerHTML = `You chose **${userChoice}**, Computer chose **${computerChoice}**.`;
+    }
+}
+
+function playGame(userChoice) {
+    let randomNum = Math.random();
+    let computerChoice;
+
+    if (randomNum < 1 / 3) {
         computerChoice = 'Bat';
-      } else if (randomNum < 2) {
+    } else if (randomNum < 2 / 3) {
         computerChoice = 'Ball';
-      } else {
+    } else {
         computerChoice = 'Stump';
-      }
+    }
 
-      let result;
-      if (userChoice === computerChoice) {
+    let result;
+    if (userChoice === computerChoice) {
         result = 'Draw';
-      } else if (
+        score.draw += 1;
+    } else if (
         (userChoice === 'Bat' && computerChoice === 'Ball') ||
         (userChoice === 'Ball' && computerChoice === 'Stump') ||
         (userChoice === 'Stump' && computerChoice === 'Bat')
-      ) {
-        result = 'You Win';
-      } else {
-        result = 'You Lose';
-      }
-
-      alert(`You chose ${userChoice}, Computer chose ${computerChoice} → ${result}`);
+    ) {
+        result = 'You Win!';
+        score.win += 1;
+    } else {
+        result = 'You Lose!';
+        score.lose += 1;
     }
+
+    // update local storage
+    localStorage.setItem('score', JSON.stringify(score));
+
+    updatescore(result);
+    resultscore(userChoice, computerChoice);
+}
+
+// reset local storage
+function resetScore() {
+    localStorage.removeItem('score');
+    score = {
+        win: 0,
+        lose: 0,
+        draw: 0
+    };
+    updatescore('Score Reset!');
+    document.getElementById('result-text').innerHTML = '';
+}
